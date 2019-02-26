@@ -1,5 +1,7 @@
 {
   "name": "ionicGeolocation",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
