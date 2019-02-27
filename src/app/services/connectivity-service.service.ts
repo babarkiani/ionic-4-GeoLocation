@@ -29,6 +29,7 @@ export class ConnectivityServiceService {
       return this.network.type == 'none';
     } else {
       return !navigator.onLine;
+      // return !navigator.onLine;
     }
   }
 
