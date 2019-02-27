@@ -83,4 +83,11 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^3.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-plugin-geolocation" spec="4.0.1" />
+    <plugin name="cordova-plugin-nativegeocoder" spec="3.1.3" />
+    <engine name="browser" spec="5.0.4" />
+    <plugin name="cordova-plugin-googlemaps" spec="2.5.1">
+        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyAQsHaYL1JUPd1U7hT-0nN_XZS9-IRib7E" />
+        <variable name="API_KEY_FOR_IOS" value="AIzaSyAQsHaYL1JUPd1U7hT-0nN_XZS9-IRib7E" />
+    </plugin>
+    <plugin name="cordova-plugin-network-information" spec="2.0.1" />
 </widget>
