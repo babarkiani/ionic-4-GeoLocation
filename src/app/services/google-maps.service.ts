@@ -16,7 +16,8 @@ export class GoogleMapsService {
   mapLoadedObserver: any;
   currentMarker: any;
   apiKey: string = "AIzaSyAQsHaYL1JUPd1U7hT-0nN_XZS9-IRib7E";
-  constructor(public connectivityService: ConnectivityServiceService, public geolocation: Geolocation) {
+  constructor(private connectivityService: ConnectivityServiceService,
+    private geolocation: Geolocation) {
 
   }
 

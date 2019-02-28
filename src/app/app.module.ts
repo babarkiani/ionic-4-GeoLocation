@@ -22,6 +22,8 @@ import {
   GoogleMapsAnimation,
   MyLocation
 } from '@ionic-native/google-maps/ngx';
+import * as googleMaps from '@google/maps';
+// import {googlemaps } from '@types/googlemaps';
 
 @NgModule({
   declarations: [AppComponent],
